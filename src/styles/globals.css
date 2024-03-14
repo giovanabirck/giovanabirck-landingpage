@@ -1,0 +1,191 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Bolden";
+  src: url("/Bolden-Display.ttf") format("truetype");
+  font-weight: bold;
+}
+
+main{
+  color: #1A0AD1;
+  background-color: #EDEDED;
+}
+
+.header {
+  padding: 24px 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 24px;
+}
+
+.header h1 {
+  font-family: "Bolden", sans-serif;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+.button {
+  padding: 8px 32px;
+  background-color: #1A0AD1;
+  color: #EDEDED;
+  border-radius: 4px;
+  font-family: "Bolden", sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.hero {
+  padding: 0px 160px;
+  padding-bottom: 24px;
+  font-size: 150px;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero h1 {
+  padding-top: 24px;
+  text-align: center;
+  font-family: "Bolden", sans-serif;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  height: 70vh;
+}
+
+.hero-spline {
+  margin-top: -40px;
+}
+
+.hero-intro01 {
+  padding-top: 40px;
+  width: 280px;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+.hero-intro02 {
+  padding-top: 300px;
+  padding-left: 40px;
+  width: 360px;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+.innovative-interaction {
+  background-color: #1D09DA;
+  color: #EDEDED;
+  margin-top: -100px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 160px;
+}
+
+.innovative-interaction p {
+  padding-bottom: 24px;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+.innovative-content {
+  font-size: 16px;
+  padding-left: 120px;
+  
+}
+
+.innovative-spline {
+  margin-top: -200px;
+  margin-bottom: 56px;
+  padding-left: 80px;
+}
+
+.innovative-spline-01 {
+  margin-top: -160px;
+  margin-bottom: 64px;
+  padding-left: 250px;
+}
+
+.projects {
+  padding: 0px 160px;
+}
+
+.projects h1 {
+  font-family: "Bolden", sans-serif;
+  font-size: 265px;
+  text-align: center;
+  line-height: 1;
+}
+
+.projects-case {
+  display: flex;
+  flex-direction: row;
+}
+
+.projects-case p {
+  padding-top: 40px;
+  width: 250px;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+.project-spline {
+  margin-top: -110px;
+  margin-bottom: 160px;
+}
+
+.button-project {
+  padding: 8px 32px;
+  background-color: #1A0AD1;
+  color: #EDEDED;
+  border-radius: 4px;
+  height: 44px;
+  width: 200px;
+  text-align: center;
+  margin-top: 370px;
+  margin-left: 100px;
+  font-family: "Bolden", sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.final {
+  background-color: #1D09DA;
+  color: #EDEDED;
+}
+
+.final-spline {
+  margin-top: -40px;
+  margin-left: 250px;
+}
+
+.final h1 {
+  padding-top: 80px;
+  font-size: 160px;
+  text-align: center;
+  font-family: "Bolden", sans-serif;
+  line-height: 1.2;
+}
+
+footer {
+  padding: 24px 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
