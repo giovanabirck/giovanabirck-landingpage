@@ -115,13 +115,17 @@ main{
   padding-left: 250px;
 }
 
+.projects-intro-tablet {
+  display: none;
+}
+
 .projects {
   padding: 0px 160px;
 }
 
 .projects h1 {
   font-family: "Bolden", sans-serif;
-  font-size: 265px;
+  font-size: 260px;
   text-align: center;
   line-height: 1;
 }
@@ -168,6 +172,10 @@ main{
   margin-left: 250px;
 }
 
+.final-spline-tablet {
+  display: none;
+}
+
 .final h1 {
   padding-top: 80px;
   font-size: 160px;
@@ -187,5 +195,276 @@ footer {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+
+/* Tablet */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  { 
+  main {
+    width: 100vw;
+  }
+  
+  .header {
+    padding: 24px 80px;
+  }
+  
+  .header h1 {
+    font-size: 32px;
+  }
+  
+  .hero {
+    padding: 0px 80px;
+    font-size: 110px;
+  }
+  
+  .hero h1 {
+    padding-top: 24px;
+  }
+
+  .hero-intro01 {
+    font-size: 20px;
+  }
+  
+  .hero-intro02 {
+    padding-top: 250px;
+    padding-left: 32px;
+    font-size: 20px;
+  }
+  
+  .innovative-interaction {
+    margin-top: -400px;
+    flex-direction: column;
+    padding: 0px;
+  }
+  
+  .innovative-interaction p {
+    padding-bottom: 24px;
+  }
+  
+  .innovative-content {
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 80px;   
+    margin-top: -180px; 
+    width: 800px;
+    padding-bottom: 160px;
+  }
+  
+  .innovative-spline {
+    display: none;
+  }
+  
+  .innovative-spline-01 {
+    display: none;
+  }
+
+  .projects-intro {
+    display: none;
+  }
+
+  .projects-intro-tablet {
+    display: flex;
+    padding-left: 72px;
+  }
+  
+  .projects {
+    padding: 0px 80px;
+  }
+  
+  .projects h1 {
+    font-size: 190px;
+  }
+  
+  .projects-case {
+    flex-direction: column;
+  }
+  
+  .projects-case p {
+    padding-top: 0px;
+    padding-left: 0px;
+    width: 300px;
+  }
+  
+  .project-spline {
+    margin-top: -80px;
+    margin-bottom: -80px;
+    padding-left: 130px;
+  }
+  
+  .button-project {
+    padding: 16px 32px;
+    border-radius: 8px;
+    height: 58px;
+    margin-top: 0px;
+    margin-left: 600px;
+    margin-bottom: 160px;
+  }
+  
+  .final {
+    background-color: #1D09DA;
+    color: #EDEDED;
+  }
+  
+  .final-spline {
+    display: none;
+  }
+
+  .final-spline-tablet {
+    display: flex;
+    margin-top: -40px;
+    margin-left: 250px;  
+  }
+  
+  footer {
+    padding: 24px 80px;
+  }
+}
+
+
+/* IPhone XR */
+
+@media only screen and (device-width : 414px) and (device-height : 896px) { 
+  main {
+    width: 235vw;
+  }
+  
+  .header {
+    padding: 40px 80px;
+    justify-content: center;
+  }
+
+  .header-logo {
+    height: 100px;
+    width: 140px;
+  }
+  
+  .header h1 {
+    display: none;
+  }
+  
+  .hero {
+    padding: 0px 80px;
+    font-size: 130px;
+  }
+
+  .hero-content {
+    flex-direction: column;
+  }
+  
+  .hero h1 {
+    padding-top: 40px;
+  }
+
+  .hero-intro01 {
+    font-size: 24px;
+    width: 520px;
+    
+  }
+
+  .hero-spline {
+    margin-left: 140px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .hero-intro02 {
+    padding-top: 0px;
+    margin-left: 360px;
+    padding-right: 0px;
+    width: 400px;
+    font-size: 24px;
+  }
+  
+  .innovative-interaction {
+    margin-top: 200px;
+    flex-direction: column;
+    padding: 0px;
+    width: 235vw;
+  }
+  
+  .innovative-interaction p {
+    padding-bottom: 32px;
+  }
+  
+  .innovative-content {
+    font-size: 32px;
+    padding-left: 80px;
+    padding-right: 80px;   
+    margin-top: -180px; 
+    width: 800px;
+    padding-bottom: 80px;
+  }
+  
+  .innovative-spline {
+    display: none;
+  }
+  
+  .innovative-spline-01 {
+    display: none;
+  }
+
+  .projects-intro {
+    display: none;
+  }
+
+  .projects-intro-tablet {
+    display: flex;
+    padding-left: 32px;
+  }
+  
+  .projects {
+    padding: 0px 80px;
+  }
+  
+  .projects h1 {
+    font-size: 180px;
+  }
+  
+  .projects-case {
+    flex-direction: column;
+  }
+  
+  .projects-case p {
+    padding-top: 24px;
+    padding-left: 0px;
+    width: 420px;
+    font-size: 24px;
+  }
+  
+  .project-spline {
+    margin-top: 0px;
+    margin-bottom: -80px;
+    padding-left: 130px;
+  }
+  
+  .button-project {
+    padding: 20px 40px;
+    border-radius: 8px;
+    height: 72px;
+    margin-top: 0px;
+    margin-left: 600px;
+    margin-bottom: 160px;
+  }
+  
+  .final {
+    background-color: #1D09DA;
+    color: #EDEDED;
+  }
+  
+  .final-spline {
+    display: none;
+  }
+
+  .final-spline-tablet {
+    display: flex;
+    margin-top: -40px;
+    margin-left: 140px;  
+  }
+  
+  footer {
+    padding: 40px 40px;
+    font-size: 24px;
   }
 }

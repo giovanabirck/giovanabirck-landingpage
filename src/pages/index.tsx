@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Spline from '@splinetool/react-spline';
+import Link from "next/link";
 // import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 
 
@@ -12,9 +13,9 @@ export default function Home() {
           width={50}
           height={50}
           alt="logo"
+          className="header-logo"
         />
         <h1>GIOVANA BIRCK</h1>
-        <div className="button">Resume</div>
       </header>
 
       <div className="hero">
@@ -58,8 +59,12 @@ export default function Home() {
           </div>
         </div>
 
-        <div>
+        <div className="projects-intro">
           <Spline scene="https://prod.spline.design/tsHHhYUSuY6rtdMo/scene.splinecode" />
+        </div>
+
+        <div className="projects-intro-tablet">
+          <Spline scene="https://prod.spline.design/LiAziqijH6L2eZnE/scene.splinecode" />
         </div>
 
         <div className="projects">
@@ -72,7 +77,9 @@ export default function Home() {
             <div className="project-spline">
               <Spline scene="https://prod.spline.design/o92UqzrVhzAS6BCt/scene.splinecode" />
             </div>
-            <div className="button-project">View Project</div>
+            <Link href="https://www.giovanabirck.com/moneyment" target="_blank">
+              <div className="button-project">View Project</div>
+            </Link>
           </div>
         </div>
 
@@ -86,7 +93,9 @@ export default function Home() {
             <div className="project-spline">
               <Spline scene="https://prod.spline.design/x-wSPxCEF6ApuqMY/scene.splinecode" />
             </div>
-            <div className="button-project">View Project</div>
+            <Link href="https://www.giovanabirck.com/allergy-alert" target="_blank">
+              <div className="button-project">View Project</div>
+            </Link>
           </div>
         </div>
 
@@ -95,11 +104,15 @@ export default function Home() {
           <div className="final-spline">
             <Spline scene="https://prod.spline.design/zy1S6rZCcFz9u6li/scene.splinecode" />
           </div>
+          <div className="final-spline-tablet">
+            <Spline scene="https://prod.spline.design/YPZ-kRCilgeaaqX0/scene.splinecode" />
+          </div>
+
         </div>
 
         <footer>
           <p>contact@giovanabirck.com</p>
-          <p>linkedin.com/in/giovanabirck/</p>
+          <Link href="https://www.linkedin.com/in/giovanabirck/" target="_blank">linkedin.com/in/giovanabirck/</Link>
         </footer>
 
     </main>
