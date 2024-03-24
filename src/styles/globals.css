@@ -9,8 +9,8 @@
 }
 
 main{
-  color: #1A0AD1;
-  background-color: #EDEDED;
+  color: #000;
+  background-color: #fafafa;
 }
 
 .header {
@@ -30,8 +30,8 @@ main{
 
 .button {
   padding: 8px 32px;
-  background-color: #1A0AD1;
-  color: #EDEDED;
+  background-color: #0000;
+  color: #fafafa;
   border-radius: 4px;
   font-family: "Bolden", sans-serif;
   font-size: 20px;
@@ -81,8 +81,8 @@ main{
 }
 
 .innovative-interaction {
-  background-color: #1D09DA;
-  color: #EDEDED;
+  background-color: #000;
+  color: #fafafa;
   margin-top: -100px;
   width: 100vw;
   display: flex;
@@ -147,10 +147,10 @@ main{
   margin-bottom: 160px;
 }
 
-.button-project {
+.button-project01 {
   padding: 8px 32px;
-  background-color: #1A0AD1;
-  color: #EDEDED;
+  background-color: #000;
+  color: #fafafa;
   border-radius: 4px;
   height: 44px;
   width: 200px;
@@ -162,9 +162,39 @@ main{
   letter-spacing: 2px;
 }
 
+.button-project02 {
+  padding: 8px 32px;
+  background-color: #000;
+  color: #fafafa;
+  border-radius: 4px;
+  height: 44px;
+  width: 200px;
+  text-align: center;
+  margin-top: 450px;
+  margin-left: 100px;
+  font-family: "Bolden", sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.button-project03 {
+  padding: 8px 32px;
+  background-color: #000;
+  color: #fafafa;
+  border-radius: 4px;
+  height: 44px;
+  width: 200px;
+  text-align: center;
+  margin-top: 400px;
+  margin-left: 100px;
+  font-family: "Bolden", sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
 .final {
-  background-color: #1D09DA;
-  color: #EDEDED;
+  background-color: #000;
+  color: #fafafa;
 }
 
 .final-spline {
@@ -293,7 +323,7 @@ footer {
     padding-left: 130px;
   }
   
-  .button-project {
+  .button-project01 {
     padding: 16px 32px;
     border-radius: 8px;
     height: 58px;
@@ -302,9 +332,27 @@ footer {
     margin-bottom: 160px;
   }
   
+  .button-project02 {
+    padding: 16px 32px;
+    border-radius: 8px;
+    height: 58px;
+    margin-top: 0px;
+    margin-left: 600px;
+    margin-bottom: 160px;
+  }
+
+  .button-project03 {
+    padding: 16px 32px;
+    border-radius: 8px;
+    height: 58px;
+    margin-top: 0px;
+    margin-left: 600px;
+    margin-bottom: 160px;
+  }
+
   .final {
-    background-color: #1D09DA;
-    color: #EDEDED;
+    background-color: #000;
+    color: #fafafa;
   }
   
   .final-spline {
@@ -439,7 +487,25 @@ footer {
     padding-left: 130px;
   }
   
-  .button-project {
+  .button-project01 {
+    padding: 20px 40px;
+    border-radius: 8px;
+    height: 72px;
+    margin-top: 0px;
+    margin-left: 600px;
+    margin-bottom: 160px;
+  }
+
+  .button-project02 {
+    padding: 20px 40px;
+    border-radius: 8px;
+    height: 72px;
+    margin-top: 0px;
+    margin-left: 600px;
+    margin-bottom: 160px;
+  }
+
+  .button-project03 {
     padding: 20px 40px;
     border-radius: 8px;
     height: 72px;
@@ -449,8 +515,8 @@ footer {
   }
   
   .final {
-    background-color: #1D09DA;
-    color: #EDEDED;
+    background-color: #000;
+    color: #fafafa;
   }
   
   .final-spline {

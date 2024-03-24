@@ -22,8 +22,8 @@ export default function Home() {
           <h1>DESIGNING EXPERIENCES THAT ENGAGE AND INSPIRE</h1>
         <div className="hero-content">
           <p className="hero-intro01">
-            Passionate about creating innovative and accessible digital experiences, 
-            my mission is to shape a more inclusive and connected tomorrow ✨
+            Product Designer passionate about creating innovative and accessible digital 
+            experiences, my mission is to shape a more inclusive and connected tomorrow ✨
           </p>
           <div className="hero-spline">
             <Spline scene="https://prod.spline.design/zcBmlcOCoVYDZsC6/scene.splinecode" />
@@ -78,7 +78,7 @@ export default function Home() {
               <Spline scene="https://prod.spline.design/o92UqzrVhzAS6BCt/scene.splinecode" />
             </div>
             <Link href="https://www.giovanabirck.com/moneyment" target="_blank">
-              <div className="button-project">View Project</div>
+              <div className="button-project01">View Project</div>
             </Link>
           </div>
         </div>
@@ -94,7 +94,39 @@ export default function Home() {
               <Spline scene="https://prod.spline.design/x-wSPxCEF6ApuqMY/scene.splinecode" />
             </div>
             <Link href="https://www.giovanabirck.com/allergy-alert" target="_blank">
-              <div className="button-project">View Project</div>
+              <div className="button-project02">View Project</div>
+            </Link>
+          </div>
+        </div>
+
+        <div className="projects">
+          <h1>BEEBOO</h1>
+          <div className="projects-case"> 
+            <p>
+              An educational experience about Canada's declining 
+              bee population through interactive content and quizzes
+            </p>
+            <div className="project-spline">
+              <Spline scene="https://prod.spline.design/wzWP80-s0tnWErct/scene.splinecode" />
+            </div>
+            <Link href="https://www.giovanabirck.com/beeboo" target="_blank">
+              <div className="button-project03">View Project</div>
+            </Link>
+          </div>
+        </div>
+
+        <div className="projects">
+          <h1>IMMERSE ART</h1>
+          <div className="projects-case"> 
+            <p>
+              An immersive exploration of Concepts of White through 
+              an interactive gallery map and Augmented Reality (AR)
+            </p>
+            <div className="project-spline">
+              <Spline scene="https://prod.spline.design/XogpjhRpEzaa1rqy/scene.splinecode" />
+            </div>
+            <Link href="https://www.giovanabirck.com/immerse-art" target="_blank">
+              <div className="button-project03">View Project</div>
             </Link>
           </div>
         </div>
@@ -107,7 +139,6 @@ export default function Home() {
           <div className="final-spline-tablet">
             <Spline scene="https://prod.spline.design/YPZ-kRCilgeaaqX0/scene.splinecode" />
           </div>
-
         </div>
 
         <footer>
